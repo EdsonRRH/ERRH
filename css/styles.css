@@ -44,10 +44,27 @@ a:hover {
 
 #principal {
     margin-top: 3.125em;
-    min-height: 28.12em;
+    min-height: calc(100vh - 4.6875em);
     
 }
 
+
+/****************************************************/
+/* Estilos del Producto                           */
+/****************************************************/
+
+#producto{
+    background: -webkit-linear-gradient(90deg, #6859EA 10%, #6ACBEA 90%);
+    background: -moz-linear-gradient(90deg, #6859EA 10%, #6ACBEA 90%);
+    background:  linear-gradient(90deg, #6859EA 10%, #6ACBEA 90%);
+    color: #FFF;
+
+}
+
+.espacio-row{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
 /****************************************************/
 /* Estilos del Footer                               */
